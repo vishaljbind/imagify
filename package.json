@@ -1,0 +1,15 @@
+{
+  "name": "imagify-main",
+  "version": "1.0.0",
+  "description": "🚀 **Imagify** is an AI-powered app where users generate images by providing a descriptive sentence. Sign up, log in, and start with 5 free credits to generate AI images. Additional credits can be purchased as needed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install --prefix server && npm install --prefix client && npm run build --prefix client",
+    "start": "npm run start --prefix server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
